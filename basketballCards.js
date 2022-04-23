@@ -2,7 +2,7 @@ const { nextLine } = require("@learnly/simple-reader");
 
 const fs = require("fs");
 
-const { printMenu, searchList, printCards, sortedPlayerList, printTopList, isTaken } = require("./functions");
+const { printMenu, searchList, printCards, sortedPlayerList, printTopList, isTaken, updateList } = require("./functions");
 
 // DECLARING VARIABLES
 

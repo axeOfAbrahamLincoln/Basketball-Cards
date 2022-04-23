@@ -96,6 +96,10 @@ function isTaken(list, newName) {
 		return false;
 	}
 }
+function updateList(elm, list, idxParent, idxChild) {
+	list[idxParent][idxChild] = elm;
+}
+
 module.exports = {
 	printMenu,
 	searchList,
@@ -103,4 +107,5 @@ module.exports = {
 	sortedPlayerList,
 	printTopList,
 	isTaken,
+	updateList,
 };
